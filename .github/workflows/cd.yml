@@ -1,20 +1,13 @@
-<<<<<<< HEAD
 name: cd
 
 on:
   push:
     branches: [main]
 
-=======
->>>>>>> fb975e8 (Add continuous deployment workflow for Google Cloud)
 jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-<<<<<<< HEAD
-
-=======
->>>>>>> fb975e8 (Add continuous deployment workflow for Google Cloud)
     env:
       CLOUDSDK_CORE_PROJECT: notely-483121
 
