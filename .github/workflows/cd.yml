@@ -1,14 +1,7 @@
-name: cd
-
-on:
-  push:
-    branches: [main]
-
 jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-
     env:
       CLOUDSDK_CORE_PROJECT: notely-483121
 
